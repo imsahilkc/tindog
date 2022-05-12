@@ -1,0 +1,175 @@
+/* General */
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: gray;
+}
+
+/* Colors */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-title {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+/* Button */
+
+.download-button {
+  margin: 0.8rem 0.8rem 0 0;
+}
+
+.icon {
+  margin-right: 0.2rem;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title img */
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  font-size: 4rem;
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Testimonial */
+
+#testimonial {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.testimonial-image {
+  width: 90px;
+  border-radius: 100%;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 8rem;
+  margin-right: 2rem;
+}
+
+/* Pricing */
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.price-heading {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.price-column {
+  padding: 3% 2%;
+}
+
+/* cta */
+
+.cta-heading {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* footer */
+
+.f-icon {
+  margin: 1rem 1rem 1rem 0;
+}
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+    margin-top: 2rem;
+  }
+}
